@@ -1,0 +1,31 @@
+.about {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  color: $color-text;
+
+  &__right {
+    max-width: 445px;
+  }
+
+  &__link {
+    color: $primary-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @include middle-tablet {
+      font-size: 13px;
+    }
+  }
+
+  &__title {
+    @include middle-tablet {
+      font-size: 30px;
+    }
+  }
+
+  @include small-tablet {
+    padding-top: 60px;
+  }
+}
