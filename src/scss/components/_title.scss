@@ -1,0 +1,15 @@
+.title {
+  @include font(36px, 42px);
+
+  font-weight: 500;
+  text-align: left;
+  color: $color-text;
+
+  &--center {
+    text-align: center;
+  }
+
+  &--sm {
+    @include font(18px, 21px);
+  }
+}

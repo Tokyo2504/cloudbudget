@@ -1,0 +1,18 @@
+// container
+$containerWidth: 1140px;
+$containerPadding: 30px;
+$containerSidePadding: math.div($containerPadding, 2);
+
+// font
+$font-family: "Roboto", sans-serif;
+$font-size: 14px;
+$line-height: 1.5;
+$font-weight: 400;
+$font-style: normal;
+
+// colors
+$color-bg: #f2f2f2;
+$color-text: #000;
+$light-color: #fff;
+$primary-color: #ed4c5c;
+$black-color: #101010;
