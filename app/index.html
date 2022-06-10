@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>CloudBudget</title>
+  <link rel="preload" href="fonts/RobotoRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoMedium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RobotoBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <div class="logo">
+      <svg class="logo__icon">
+        <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
+      <p>CloudBudget</p>
+    </div>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="nav__list list-reset">
+        <li class="nav__item"><a href="#about" class="nav__link" data-menu-item data-scroll>Обзор</a></li>
+        <li class="nav__item"><a href="#ability" class="nav__link" data-menu-item data-scroll>Особенности</a></li>
+        <li class="nav__item"><a href="#technology" class="nav__link" data-menu-item data-scroll>Технология</a></li>
+        <li class="nav__item"><a href="#contacts" class="nav__link" data-menu-item data-scroll>Контакты</a></li>
+        <li class="nav__item"><a href="#" class="nav__link" data-menu-item>Войти</a></li>
+      </ul>
+    </nav>
+    <button class="btn-reset btn btn--stroke header__btn" data-graph-path="">Войти</button>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <section class="hero">
+  <div class="container hero__container">
+    <h1 class="title hero__title">CloudBudget</h1>
+   <div class="hero__descr">
+      <p>Управление бюджетом в для всех.</p>
+      <p>Всего 69,95 € в месяц после 7-дневной пробной версии за 4,99 €</p>
+   </div>
+    <button class="btn-reset btn btn--white" data-graph-path="">Попробовать</button>
+  </div>
+</section>
+
+    <section class="about section" id="about">
+  <div class="container section__container">
+    <div class="section__left">
+      <h2 class="title section__title about__title">Простое приложение для управления бюджетом</h2>
+      <p class="section__text">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</p>
+      <a class="about__link" href="#">Узнать подробнее</a>
+    </div>
+    <div class="section__right about__right">
+      <img loading="lazy" src="img/about.jpg" class="image" width="445" height="311" alt="Люди сидят обсуждают планы">
+    </div>
+  </div>
+</section>
+
+    <section class="ability" id="ability">
+  <div class="container ability__container">
+    <h2 class="title title--center ability__heading">Возможности</h2>
+    <div class="ability__card">
+      <div class="ability__item">
+        <div class="ability__img">
+          <img loading="lazy" src="img/ability/1.jpg" class="image" width="350" height="250" alt="Деньги">
+        </div>
+        <div class="ability__content">
+          <h3 class="title title--center ability__title title--sm">Поддерживает все валюты и карты</h3>
+          <p class="ability__text">Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить</p>
+          <a href="#" class="ability__link">Подробнее</a>
+        </div>
+      </div>
+      <div class="ability__item">
+        <div class="ability__img">
+          <img loading="lazy" src="img/ability/2.jpg" class="image" width="350" height="250" alt="Деньги">
+        </div>
+        <div class="ability__content">
+          <h3 class="title title--center ability__title title--sm">Управляйте своими расходами на ходу</h3>
+          <p class="ability__text">Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве</p>
+          <a href="#" class="ability__link">Подробнее</a>
+        </div>
+      </div>
+      <div class="ability__item">
+        <div class="ability__img">
+          <img loading="lazy" src="img/ability/3.jpg" class="image" width="350" height="250" alt="Деньги">
+        </div>
+        <div class="ability__content">
+          <h3 class="title title--center ability__title title--sm">Управление бюджетом осуществляется в облаке</h3>
+          <p class="ability__text">Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом. </p>
+          <a href="#" class="ability__link">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="technology" id="technology">
+  <div class="container technology__container">
+    <h2 class="title title--center technology__heading">Технологии</h2>
+    <ul class="list-reset technology__list">
+      <li class="technology__item technology__item--cloud">
+        <h3 class="tiitle title--center title--sm technology__title">Облачное хранение</h3>
+        <p class="technology__text">Доступ из любой точки мира с любого устройства</p>
+      </li>
+      <li class="technology__item technology__item--safety">
+        <h3 class="tiitle title--center title--sm technology__title">Безопастность</h3>
+        <p class="technology__text">Вся информация хранится на защищенных облачных серверах</p>
+      </li>
+      <li class="technology__item technology__item--pdf">
+        <h3 class="tiitle title--center title--sm technology__title">PDF Отчеты</h3>
+        <p class="technology__text">Скачивайте ваши отчеты в удобном формате PDF</p>
+      </li>
+      <li class="technology__item technology__item--csv">
+        <h3 class="tiitle title--center title--sm technology__title">CSV Отчеты</h3>
+        <p class="technology__text">Скачивайте ваши отчеты в удобном формате CSV</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="benefits section">
+  <div class="container section__container">
+    <div class="section__left">
+      <h2 class="title section__title benefits__title">Сосредоточьтесь на экономии денег</h2>
+      <p class="section__text benefits__text">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!</p>
+      <ul class="benefits__list list-reset">
+        <li class="benefits__item">
+          <a href="#" class="benefits__link">
+          <svg>
+            <use xlink:href="img/sprite.svg#google"></use>
+          </svg>
+          </a>
+        </li>
+        <li class="benefits__item">
+          <a href="#" class="benefits__link">
+            <svg>
+              <use xlink:href="img/sprite.svg#app-store"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section__right benefits__right">
+      <img loading="lazy" src="img/benefits.jpg" class="image" width="445" height="311" alt="Люди сидят обсуждают планы">
+    </div>
+  </div>
+</section>
+
+    <div class="section contacts" id="contacts">
+  <div class="container section__container">
+    <div class="section__left contacts__left">
+      <h2 class="title section__title contacts__title">Напишите нам</h2>
+      <p class="section__text contacts__text">Остались вопросы или опасения? Просто заполните форму ниже, и наша служба поддержки свяжется с вами в течение 24 часов.</p>
+    </div>
+    <div class="section__right contacts__right">
+      <form action="/" class="form">
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Телефон">
+        <button class="btn-reset btn btn--primary contacts__btn" data-graph-path="">Отправить</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <main class="main">
+    </main>
+
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <h3 class="title title--sm footer__title">Адрес</h3>
+      <address class="footer__address">Pipang Ltd, Griva Digeni,
+        81-83 Jacovides Tower, 1st Floor
+        1090 Picosia USA</address>
+        <p class="footer__copy">Copyright 2021 CloudBudget</p>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
